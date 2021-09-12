@@ -1,11 +1,10 @@
 {
   "name": "crud",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +18,15 @@
     "mongoose": "^6.0.5",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dereee/User_Registration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dereee/User_Registration/issues"
+  },
+  "homepage": "https://github.com/Dereee/User_Registration#readme",
+  "description": ""
 }
