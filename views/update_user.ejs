@@ -1,0 +1,73 @@
+<!--include HEADER-->
+
+<%- include('include/_header')%>
+
+<!--/include HEADER-->
+
+<!--Main Site-->
+
+<main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <div class="filter">
+                <a href="/"><i class="fas fa-angle-double-left"></i>All Users</a>
+            </div>
+        </div> 
+        <div class="form-title text-center">
+            <h2 class="text-dark">Update User</h2>
+            <span class="text-light">Fill the form below to update an existing account..</span>
+        </div> 
+
+        <!--add user form-->
+       <!--form handling-->
+<form method="POST" id="update_user">
+    <div class="new_user">
+        <div class="form_group">
+            <lable for="name" class="text-light">Name</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="JC Bagas">
+        </div>
+        <div class="form_group">
+            <lable for="Email" class="text-light">Email</lable>
+            <input type="text" name="email" value="" placeholder="example@gmail.com">
+        </div>
+        </div>
+        <div class="form_group">
+            <lable for="Gender" class="text-light">Gender</lable>
+            <div class="radio inline">
+                <input type="radio" name="gender" value="Male">
+                <lable for="Gender" class="text-light">Male</lable>
+            </div>
+            <div class="radio inline">
+                <input type="radio" name="gender" value="Female">
+                <lable for="Gender" class="text-light">Female</lable>
+            </div>
+        </div>                
+        <div class="form_group">
+            <lable for="Status" class="text-light">Status</lable>
+            <div class="radio inline">
+                <input type="radio" name="status" value="Active">
+                <lable for="Status" class="text-light">Active</lable>
+            </div>
+            <div class="radio inline">
+                <input type="radio" name="status" value="Inactive">
+                <lable for="Status" class="text-light">Inactive</lable>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+    </div>
+</form>
+
+    </div>
+
+</main>
+
+<!--/Main Site-->
+
+<!--include FOOTER-->
+
+<%- include('include/_footer')%>
+
+<!--/include FOOTER-->
