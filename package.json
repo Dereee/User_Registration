@@ -1,12 +1,17 @@
 {
-  "name": "crud",
+  "name": "crud_app",
   "version": "1.0.0",
+  "description": "crud app with express and mongodb",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "",
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "john christopher bagas",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",
@@ -14,19 +19,8 @@
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "i": "^0.3.6",
     "mongoose": "^6.0.5",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dereee/User_Registration.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Dereee/User_Registration/issues"
-  },
-  "homepage": "https://github.com/Dereee/User_Registration#readme",
-  "description": ""
+  }
 }
